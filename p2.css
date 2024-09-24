@@ -1,0 +1,370 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+     display: grid;
+    
+     grid-template-areas:'hd hd hd hd hd'
+                         'na na na na na' 
+                         'mn mn mn mn mn'
+                         'ft ft ft ft ft' ;
+}
+#head{
+    display: flex;
+    grid-area :hd;
+    height:10vh ;
+    
+    background-color:rgb(10, 9, 9);
+    border: 20px;
+    border-color: black;
+    
+}
+#a1{
+    display: flex;
+     
+}
+#h5{
+    padding: 10px;
+    margin-top: 5px;
+    padding-left: 1px;
+    border: 0px;
+    color: aliceblue;
+    /* text-decoration: none; */
+}
+#call{
+    padding-top: 10px;
+    margin-top: 5px;
+    padding-left: 30px;
+    border: 0px;
+    
+    /* text-decoration: none; */
+}
+
+#a2{
+    display: flex;
+}
+#mai{
+    padding-top: 10px;
+    margin-top: 5px;
+    padding-left: 30px; 
+}
+#mail{
+   
+    margin-top: 14px;
+    color: aliceblue;
+    text-decoration: none;
+}
+#fb{
+    margin-top: 5px;
+    padding-left: 900px;
+    padding-top:10px ;
+    text-decoration: none;
+}
+#tw{
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-top:10px ;
+    text-decoration: none;
+}
+#ins{
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-top:10px ;
+    text-decoration: none;
+}
+#in{
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-top:10px ;
+    text-decoration: none;
+}
+
+#navi{
+    grid-area :na;
+    height:12vh ;
+    color: rgb(9, 9, 9);
+    background-color:rgb(250, 251, 252);
+    border: 20px;
+    border-color: black;
+    display: flex;
+}
+#d1{
+    display: flex;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margin-top: 15px;
+    display: flex;
+    
+}
+#ti{
+    color: rgb(12, 186, 122);
+    padding-left: 20px;
+}
+#d2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 15px;
+    margin-top: 15px;
+    font-size: small;
+    text-decoration: none;
+}
+#home{
+    color: black;
+    padding-left:300px ;
+    margin-top: 10px;
+    text-decoration: none;
+}
+#home:hover{
+    color: rgb(32, 222, 149);
+}
+#wom{
+    color: black;
+    padding-left:20px ;
+    margin-top: 10px;
+    text-decoration: none;
+}
+#wom:hover{
+    color: rgb(32, 222, 149);
+} 
+
+#men{
+    color: black;
+    padding-left:20px ;
+    margin-top: 10px;
+    text-decoration: none;
+}
+#men:hover{
+    color: rgb(32, 222, 149);
+} 
+#kid{
+    color: black;
+    padding-left:20px ;
+    margin-top: 10px;
+    text-decoration: none;
+}
+#kid:hover{
+    color: rgb(32, 222, 149);
+} 
+#jew{
+    color: black;
+    padding-left:20px ;
+    margin-top: 10px;
+    text-decoration: none;
+}
+#jew:hover{
+    color: rgb(32, 222, 149);
+} 
+#acc{
+    color: black;
+    padding-left:20px ;
+    margin-top: 10px;
+    text-decoration: none;
+}
+#acc:hover{
+    color: rgb(32, 222, 149);
+} 
+#car{
+    padding-left: 250px;
+    margin-top: 28px;
+}
+select{
+    border: none;
+    background-color:rgb(250, 251, 252);
+  
+}
+#sea{
+    padding-left: 20px ;
+    margin-top: 28px;
+}
+input{
+    width:30px;
+}
+#menu{
+    padding-left: 20px ;
+    margin-top: 28px;
+}
+#mainn{
+    position: relative;
+}
+
+#mainn{
+    grid-area: mn;
+    
+    background-color: rgb(249, 249, 251);
+    
+}
+#info{
+   position: absolute;
+   height: auto;
+   width: 300px;
+   top: 0px;
+   margin-left: 200px;
+   margin-top: 150px;
+   color: rgb(96, 166, 227);
+   padding: 10px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#h1{
+    color: black;
+}
+h1{
+    color: rgb(99, 189, 99);
+}
+p{
+    color:black;
+}
+#b1{
+    color: black;
+}
+
+#image{
+    height: 100%;
+    width: 100%;
+}
+#foot{
+    grid-area: ft;
+     margin :10px;
+    padding : 20px;
+    color :rgb(16, 18, 20);
+    background-color: rgb(246, 247, 244);
+    display: inline-block;
+    height: 40vh;
+    display: flex;
+      
+} 
+#ft{
+    grid-area :ft;
+    margin-top:23px;
+    margin-left : 40px;
+    padding-bottom: 40px;
+    color :rgb(16, 18, 20);
+    background-color: rgb(249, 250, 251);
+    display: inline-block;
+    height: 225px;
+    width: 225px;  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+} 
+h4{
+   color:  rgb(12, 186, 122);
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h5{
+    color :rgb(16, 18, 20);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#img1{
+    grid-area: ft;
+    margin-top:23px;
+    margin-left : 20px;
+    padding-bottom: 20px;
+    position: relative;
+    display: flex;
+}
+#heart{
+    position :absolute;
+    top: 0px;
+    padding-left: 170px;
+    padding-top: 15px;
+}
+#img1:hover{
+    opacity: 0.5;
+}
+
+#imgcart{
+    position :absolute;
+    top: 0px;
+    padding-left: 170px;
+    padding-top: 45px;
+}
+#imgcam{
+    position :absolute;
+    top: 0px;
+    padding-left: 170px;
+    padding-top: 80px;
+}
+#img2{
+    grid-area: ft;
+    margin-top:23px;
+    margin-left : 20px;
+    padding-bottom: 20px;
+    position:relative;
+    display: flex;
+}
+#img2:hover{
+    opacity: 0.5;
+}
+#heart1{
+    position :absolute;
+    top: 0px;
+    padding-left: 170px;
+    padding-top: 15px;
+}
+#imgcart1{
+    position :absolute;
+    top: 0px;
+    padding-left: 170px;
+    padding-top: 45px;
+}
+#imgcam1{
+    position :absolute;
+    top: 0px;
+    padding-left: 170px;
+    padding-top: 80px;
+}
+#img3{
+    grid-area: ft;
+    margin-top:23px;
+    margin-left : 20px;
+    padding-bottom: 20px;
+    display: flex;
+    position: relative;
+}
+#img3:hover{
+    opacity: 0.5;
+}
+#heart2{
+    position :absolute;
+    top: 0px;
+    padding-left: 180px;
+    padding-top: 15px;
+}
+#imgcart2{
+    position :absolute;
+    top: 0px;
+    padding-left: 180px;
+    padding-top: 45px;
+}
+#imgcam2{
+    position :absolute;
+    top: 0px;
+    padding-left: 180px;
+    padding-top: 80px;
+}
+#img4{
+    grid-area: ft;
+    margin-top:23px;
+    margin-left : 20px;
+    padding-bottom: 20px;
+    position: relative;
+    display: flex;
+} 
+#img4:hover{
+    opacity: 0.5;
+}
+#heart3{
+    position :absolute;
+    top: 0px;
+    padding-left: 170px;
+    padding-top: 15px;
+}
+#imgcart3{
+    position :absolute;
+    top: 0px;
+    padding-left: 170px;
+    padding-top: 45px;
+}
+#imgcam3{
+    position :absolute;
+    top: 0px;
+    padding-left: 170px;
+    padding-top: 80px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <!-- <script src="login.js" defer ></script> -->
+</head>
+<body>
+    
+    <form onsubmit="myfunc(event)">
+        <div id="img">
+        <img src="https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-Image.png" height="70px" width="70px"></div>
+        <div id="details">
+            <label>USERNAME</label>
+    <input type="text" id="user"><br><br>
+        </div>
+        <div id="detpass">
+            <label>PASSWORD</label>
+    <input type="password" id="pass"><br><br>
+        </div>
+        <div id="butt">
+    <button type="submit" id="but">submit</button>
+      </div>
+      
+</form>
+
+<script type="text/javascript">
+      function myfunc(event){
+        event.preventdefault();
+        let us = document.getElementById('user').value;
+        let ps = document.getElementById('pass').value;
+
+        localStorage.setItem('user',us);
+        localStorage.setItem('pass',ps);
+      }
+
+</script>
+</body>
+</html>

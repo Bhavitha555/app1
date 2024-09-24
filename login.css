@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+form{
+    height: 50vh;
+    width:50vh;
+    background-color: rgb(18, 148, 51);
+    margin-left: 70vh;
+    margin-top: 20vh;
+    margin-right: 60vh;
+    margin-bottom: 80vh;
+}
+#img{
+    padding-top: 5vh;
+    padding-left: 17vh;
+}
+#details{
+    height : 40px;
+    width:250px;
+    padding-top: 2vh;
+    margin-top: 3vh;
+    padding-left: 10vh;
+    
+}
+#detpass{
+    height : 40px;
+    width:250px;
+    padding-top: 5vh;
+    padding-left: 10vh;
+    
+}
+#butt{
+    padding-top: 5vh;
+    padding-left: 18vh;
+}
+label{
+    margin-left: 6vh;
+}
